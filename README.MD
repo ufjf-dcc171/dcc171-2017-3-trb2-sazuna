@@ -84,5 +84,7 @@ Outro ponto de indecisão foi o relacionamento entre dados e janelas. Como visto
 ### Melhorias
 
 Um ponto crítico é a melhoria da interface da janela *JanelaPedidoItem* de acordo com as dificuldades levantadas no item anterior.
+
 Além disso, as janelas e vários elementos tem tamanho fixo, o que torna o redimensionamento imprevisível e a modificação de elementos difícil. Decidir dinamicamente o tamanho dos elementos é um passo importante para a melhoria do sistema.
+
 Mais abstratamente, também seria interessante uma melhor separação entre dados e interface, generalizando as classes de dados e permitindo que a implementação das regras de negócio independa da interface.
