@@ -23,7 +23,7 @@ Enquanto itens são adicionados ao Pedido, o sistema deve fornecer, em tempo rea
 
 O modelo de dados é simples:
 
-!(Diagrama de Classes)[https://www.dropbox.com/s/bokcpyth4mk6qdl/Diagrama%20de%20Classes.png?dl=0]
+![Diagrama de Classes](https://www.dropbox.com/s/bokcpyth4mk6qdl/Diagrama%20de%20Classes.png?dl=0)
 
 
 ### Campos na UI
