@@ -17,6 +17,8 @@ O sistema deve manter um histórico dos pedidos disponível para consulta.
 
 Enquanto itens são adicionados ao Pedido, o sistema deve fornecer, em tempo real, o valor total do Pedido.
 
+Não vai ser necessário guardar histórico de preços, por falta de persistência e interface de manutenção de Itens.
+
 É importante garantir que apenas um Pedido esteja aberto por Mesa, ou seja, um novo Pedido só pode ser aberto para uma Mesa que não tem Pedidos abertos. Ao mesmo tempo, é também claro que os Pedidos de uma Mesa são independentes de Pedidos de outra mesa.
 
 ### Modelo de Dados
