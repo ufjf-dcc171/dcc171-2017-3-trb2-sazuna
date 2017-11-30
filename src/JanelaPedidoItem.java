@@ -112,10 +112,6 @@ public class JanelaPedidoItem extends JFrame {
                         return;
                     }
                     int quant = Integer.valueOf(quantText.getText());
-                    if(quant < 1){
-                        JOptionPane.showMessageDialog(JanelaPedidoItem.this, "[Quantidade] deve ser maior que 0!");
-                        return;
-                    }
                     ((ItemTableModel)table.getModel()).add(item, quant);
 
                     itemCombo.setSelectedIndex(-1);

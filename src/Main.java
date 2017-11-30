@@ -1,14 +1,11 @@
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class Main {
 
-    public static List<Mesa> getData(){
-        List<Mesa> mesas = new ArrayList<>();
-        for(int i=0; i<Mesa.MAX_TABLES; i++){
-            mesas.add(new Mesa());
-        }
+    public static void generateData(List<Mesa> mesas){
         Random random = new Random();
         List<Item> itens = Item.listAll();
         for(int i=0; i<20; i++){
@@ -24,11 +21,28 @@ public class Main {
             }
             mesa.addPedido(pedido);
         }
-        return mesas;
     }
 
     public static void main(String args[]){
-        JanelaMain janela = new JanelaMain(getData());
+        List<Mesa> mesas;
+        File f = new File("data.txt");
+        if(f.exists()){
+            mesas = Manager.restore();
+            for(int i=mesas.size(); i<Mesa.MAX_TABLES; i++){
+                mesas.add(new Mesa());
+            }
+        }else{
+            mesas = new ArrayList<>();
+            for(int i=0; i<Mesa.MAX_TABLES; i++){
+                mesas.add(new Mesa());
+            }
+            Manager.init(mesas);
+            generateData(mesas);
+            //Manager.save();
+            //if(true) return;
+        }
+        Manager.ready = true;
+        JanelaMain janela = new JanelaMain(mesas);
         janela.draw();
 
         janela.setLocationRelativeTo(null);
