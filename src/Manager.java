@@ -45,7 +45,6 @@ public class Manager {
             FileReader fileReader =
                     new FileReader("data.txt");
 
-            // Always wrap FileReader in BufferedReader.
             BufferedReader bufferedReader =
                     new BufferedReader(fileReader);
 
@@ -63,7 +62,6 @@ public class Manager {
                 System.out.println(line);
             }
 
-            // Always close files.
             bufferedReader.close();
         } catch(FileNotFoundException fnf){
             JOptionPane.showMessageDialog(null, "File not found. This shouldnt happen");
