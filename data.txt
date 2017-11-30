@@ -1,0 +1,222 @@
+begin MESA
+1
+begin PEDIDO
+15
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	2
+Suco Natural	2.25	2
+X-Tudo	12.50	2
+X-Bacon	9.00	1
+X-Egg	8.00	2
+Sorvete	2.75	1
+end PEDIDO
+begin PEDIDO
+16
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	1
+Suco Natural	2.25	1
+X-Bacon	9.00	1
+Especial da Casa	5.00	2
+end PEDIDO
+begin PEDIDO
+20
+2017-11-30T11:04:34.043Z
+
+Coca-Cola	3.50	2
+X-Egg	8.00	2
+Sorvete	2.75	1
+Especial da Casa	5.00	1
+end PEDIDO
+end MESA
+begin MESA
+2
+end MESA
+begin MESA
+3
+begin PEDIDO
+9
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	2
+Suco Natural	2.25	1
+X-Tudo	12.50	2
+X-Bacon	9.00	2
+end PEDIDO
+begin PEDIDO
+18
+2017-11-30T11:04:34.043Z
+
+X-Tudo	12.50	2
+X-Bacon	9.00	2
+X-Egg	8.00	1
+Sorvete	2.75	2
+end PEDIDO
+end MESA
+begin MESA
+4
+begin PEDIDO
+12
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	2
+Suco Natural	2.25	1
+X-Tudo	12.50	2
+X-Egg	8.00	1
+end PEDIDO
+begin PEDIDO
+14
+2017-11-30T11:04:34.043Z
+
+Coca-Cola	3.50	1
+X-Tudo	12.50	2
+X-Bacon	9.00	1
+X-Egg	8.00	2
+Sorvete	2.75	2
+end PEDIDO
+end MESA
+begin MESA
+5
+begin PEDIDO
+2
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+X-Bacon	9.00	2
+Sorvete	2.75	1
+Especial da Casa	5.00	1
+end PEDIDO
+begin PEDIDO
+4
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	1
+Suco Natural	2.25	2
+X-Egg	8.00	2
+Especial da Casa	5.00	1
+end PEDIDO
+begin PEDIDO
+6
+2017-11-30T11:04:34.043Z
+
+Coca-Cola	3.50	2
+Suco Natural	2.25	2
+X-Tudo	12.50	1
+X-Egg	8.00	2
+end PEDIDO
+end MESA
+begin MESA
+6
+begin PEDIDO
+13
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:50.799Z
+Coca-Cola	3.50	1
+Suco Natural	2.25	1
+X-Tudo	12.50	2
+X-Bacon	9.00	2
+Sorvete	2.75	2
+Especial da Casa	5.00	2
+end PEDIDO
+end MESA
+begin MESA
+7
+end MESA
+begin MESA
+8
+begin PEDIDO
+7
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Suco Natural	2.25	2
+X-Bacon	9.00	2
+Especial da Casa	5.00	2
+end PEDIDO
+begin PEDIDO
+17
+2017-11-30T11:04:34.043Z
+
+Suco Natural	2.25	2
+X-Tudo	12.50	2
+X-Bacon	9.00	1
+X-Egg	8.00	2
+Sorvete	2.75	2
+end PEDIDO
+end MESA
+begin MESA
+9
+begin PEDIDO
+1
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	1
+X-Bacon	9.00	2
+X-Egg	8.00	1
+end PEDIDO
+begin PEDIDO
+3
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	2
+Suco Natural	2.25	1
+X-Tudo	12.50	2
+X-Bacon	9.00	2
+X-Egg	8.00	1
+Sorvete	2.75	1
+end PEDIDO
+begin PEDIDO
+5
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	2
+Suco Natural	2.25	2
+X-Tudo	12.50	2
+X-Bacon	9.00	1
+X-Egg	8.00	2
+Especial da Casa	5.00	2
+end PEDIDO
+begin PEDIDO
+19
+2017-11-30T11:04:34.043Z
+
+Coca-Cola	3.50	1
+Suco Natural	2.25	1
+X-Tudo	12.50	1
+X-Bacon	9.00	2
+X-Egg	8.00	2
+Sorvete	2.75	2
+end PEDIDO
+end MESA
+begin MESA
+10
+begin PEDIDO
+8
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	2
+X-Tudo	12.50	2
+X-Egg	8.00	2
+Sorvete	2.75	2
+Especial da Casa	5.00	1
+end PEDIDO
+begin PEDIDO
+10
+2017-11-30T11:04:34.043Z
+2017-11-30T11:04:34.043Z
+Coca-Cola	3.50	1
+X-Tudo	12.50	1
+X-Bacon	9.00	2
+Sorvete	2.75	1
+Especial da Casa	5.00	2
+end PEDIDO
+begin PEDIDO
+11
+2017-11-30T11:04:34.043Z
+
+Coca-Cola	3.50	2
+Suco Natural	2.25	1
+X-Egg	8.00	1
+Sorvete	2.75	1
+Especial da Casa	5.00	2
+end PEDIDO
+end MESA
